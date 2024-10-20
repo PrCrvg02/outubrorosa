@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+header{
+    height: 10vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E4EEF1;
+    div{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        font-size: 1em;
+    }
+    }
+    nav{
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 1em;
+        ul{
+            list-style: none;
+
+            li{
+                margin: 5vh;
+                display: inline;
+            }
+        }
+    }
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+#SectionFirst{
+    height: 40vh;
+    width: 100%;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        font-size: 2rem;
+        height: 30vh;
+        width: 50vw;
+    }
+}
+#SectionSecond{
+    height: 40vh;
+    width: 100%;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        font-size: 2rem;
+        height: 30vh;
+        width: 50vw;
+        color: #E4EEF1;
+    }
+    img{
+        width: 30vw;
+     }
+}
+#SectionTherd{
+    height: 40vh;
+    width: 100%;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer{
+    height: 13vh;
+    width: 100%;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RedesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13vh;
+    width: 20vw;
+}
+.InformativoDoAuluno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E4EEF1;
+}
+}

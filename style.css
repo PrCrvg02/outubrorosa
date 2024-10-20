@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 10vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #E4EEF1;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div h1 {
+  font-size: 1em;
+}
+header nav {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1em;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  margin: 5vh;
+  display: inline;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main #SectionFirst {
+  height: 40vh;
+  width: 100%;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #SectionFirst p {
+  font-size: 2rem;
+  height: 30vh;
+  width: 50vw;
+}
+main #SectionSecond {
+  height: 40vh;
+  width: 100%;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #SectionSecond p {
+  font-size: 2rem;
+  height: 30vh;
+  width: 50vw;
+  color: #E4EEF1;
+}
+main #SectionSecond img {
+  width: 30vw;
+}
+main #SectionTherd {
+  height: 40vh;
+  width: 100%;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main footer {
+  height: 13vh;
+  width: 100%;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .RedesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 13vh;
+  width: 20vw;
+}
+main .InformativoDoAuluno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #E4EEF1;
+}/*# sourceMappingURL=style.css.map */
